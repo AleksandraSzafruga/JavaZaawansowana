@@ -1,27 +1,27 @@
 package pl.sda.podstawyoop;
 
 public class Line {
-    private Point begin;
-    private Point end;
+    private Point2D begin;
+    private Point2D end;
 
-    public Line(Point begin, Point end) {
+    public Line(Point2D begin, Point2D end) {
         this.begin = begin;
         this.end = end;
     }
 
-    public Point getBegin() {
+    public Point2D getBegin() {
         return begin;
     }
 
-    public Point getEnd() {
+    public Point2D getEnd() {
         return end;
     }
 
-    public void setBegin(Point begin) {
+    public void setBegin(Point2D begin) {
         this.begin = begin;
     }
 
-    public void setEnd(Point end) {
+    public void setEnd(Point2D end) {
         this.end = end;
     }
 

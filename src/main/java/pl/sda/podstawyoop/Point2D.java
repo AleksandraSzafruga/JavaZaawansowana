@@ -1,13 +1,13 @@
 package pl.sda.podstawyoop;
 
-public class Point {
-    private int x;
-    private int y;
+public class Point2D {
+    protected int x;
+    protected int y;
 
-    public Point() {
+    public Point2D() {
     }
 
-    public Point(int x, int y) {
+    public Point2D(int x, int y) {
         //this.x = x;
         setX(x);
         //this.y = y;
@@ -51,7 +51,7 @@ public class Point {
        return Math.sqrt(Math.pow(x - this.x,2) + Math.pow(y - this.y,2));
     }
 
-    public double distance(Point another) {
+    public double distance(Point2D another) {
         return distance(another.x, another.y);
     }
 
